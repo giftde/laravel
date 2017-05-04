@@ -1,0 +1,20 @@
+#submit{
+	float:left;
+	border:0px;
+	width:130px;
+	height:30px;
+	margin-top:25px;
+}
+#gaddr{
+	float:right;
+	margin-left:30px;
+	cursor:pointer;
+	width:50px;
+	height:30px;
+	line-height: 30px;
+	background:#eee;
+	margin-top:25px;
+	margin-right:10px;
+	border-radius:8px;
+	text-align:center;
+}
