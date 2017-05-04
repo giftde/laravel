@@ -15,7 +15,7 @@ class RegisterController extends Controller
 
         // dd(222222222222);
         $links = DB::table('links')->get();
-        return view('Home.register'['links'=>$links]);
+        return view('Home.register',['links'=>$links]);
     }
 
     public function doregister(Request $request)
